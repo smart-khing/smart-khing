@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* Additional inline styles can be added here */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('d.jpg'); 
+            background-size: 100%
+            
+          ;
+            
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background with decreased opacity */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 100px); /* Adjusted width */
+    max-width: 800px; /* Maximum width */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering horizontally */
+}
+
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="date"],
+        input[type="password"] {
+            width: calc(100% - 22px); /* Adjusted width */
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome To smart</h2>
+        <form action="tiktactoe.html" >
+           <input type="text" name="full_name" placeholder="First Name" required>
+             <input type="text" name="full_name" placeholder="Last Name" required>
+              <input type="email" name="email" placeholder="Email Address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required
+            >
+           
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    
+</body>
+</html>
